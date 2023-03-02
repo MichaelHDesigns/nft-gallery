@@ -10,7 +10,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   const { contract } = useContract(
-    "0x05B8aab3fd77580C29c6510d8C54D9E6be4262d2",
+    "0x8bF2497ac488ba9Bb0BFB4b3864aDF0f8D42437f",
     "nft-drop"
   );
   const address = useAddress();
